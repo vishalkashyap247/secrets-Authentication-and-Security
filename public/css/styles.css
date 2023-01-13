@@ -1,0 +1,102 @@
+
+body {
+  background-color: #E8ECEF;
+}
+
+.center{
+  align-items: center;
+  text-align: center;
+}
+
+.color{
+  color: #000;
+}
+
+.centered {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.secret-text {
+  text-align: left;
+  font-size: 1.5rem;
+  color: #000;
+  /* color: #fff; */
+  /* background-color: #000; */
+}
+
+.small{
+  font-size: 0.6rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.info{
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.8rem;
+}
+
+.footer{
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+
+.imp{
+  font-weight: bold;
+  text-align: center;
+}
+
+/* new */
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+
+a.nav{
+    color: #000 !important;
+    cursor:pointer;
+}
+
+
+
+a.nav:hover{
+    color: #1abc9c !important;
+    text-decoration: none;
+}
+
+.google-sign{
+  
+  padding: 12px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 1px rgba(0, 0, 0, .25);
+  
+  color: #3c3c3c;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  
+  
+  background-color: white;
+  
+}
+.google-sign:hover{
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 2px 4px rgba(0, 0, 0, .25);
+}
+

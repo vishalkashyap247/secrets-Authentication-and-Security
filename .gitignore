@@ -1,0 +1,9 @@
+node_modules
+
+package-lock.json
+
+.env
+
+app.txt
+
+app2.txt
