@@ -19,7 +19,7 @@ app.use(express.static('public'));
 app.set('view engine','ejs');
 app.use(express.urlencoded({extended:true}));
 
-app.use(session({//            session before connecting to mongodb
+app.use(session({//session before connecting to mongodb
     secret: process.env.SECRET,
     resave: false,  // Forces the session to be saved back to the session store, even if the session was never modified during the request.
     saveUninitialized : false //the saveUninitialized option is set to false, the cookie will not be set on a response with an uninitialized session. This option only modifies the behavior when an existing session was loaded for the request.
