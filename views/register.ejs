@@ -11,14 +11,17 @@
           <form action="/register" method="POST">
             <div class="form-group">
               <label for="email">Email</label>
-              <input type="email" class="form-control" name="username">
+              <input type="email" class="form-control" name="username" required>
             </div>
             <div class="form-group">
               <label for="password">Password</label>
-              <input type="password" class="form-control" name="password">
+              <input type="password" class="form-control" name="password" required>
             </div><br>
-            <button class="btn btn-dark line-through"><del>Register</del></button>
-            <p class="signup-para">Please signup via Google, soon Register service will run again</p>
+            <p>Already have an account?&nbsp;<a href="https://secrets-authentication.onrender.com/login">Login here</a></p>
+
+            <button class="btn btn-dark">Register</button>
+            <!-- <p class="signup-para">Please signup via Google, soon Register service will run again</p> -->
+
           </form>
 
         </div>
@@ -28,7 +31,7 @@
     <div class="col-sm-4">
       <div class="card social-block">
         <div class="card-body center">
-          <p class="imp">Recommended!</p>
+          <p class="imp">Google</p>
           <a class="btn btn-block google-sign center" href="/auth/google" role="button">
             <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMTcuNiA5LjJsLS4xLTEuOEg5djMuNGg0LjhDMTMuNiAxMiAxMyAxMyAxMiAxMy42djIuMmgzYTguOCA4LjggMCAwIDAgMi42LTYuNnoiIGZpbGw9IiM0Mjg1RjQiIGZpbGwtcnVsZT0ibm9uemVybyIvPjxwYXRoIGQ9Ik05IDE4YzIuNCAwIDQuNS0uOCA2LTIuMmwtMy0yLjJhNS40IDUuNCAwIDAgMS04LTIuOUgxVjEzYTkgOSAwIDAgMCA4IDV6IiBmaWxsPSIjMzRBODUzIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNNCAxMC43YTUuNCA1LjQgMCAwIDEgMC0zLjRWNUgxYTkgOSAwIDAgMCAwIDhsMy0yLjN6IiBmaWxsPSIjRkJCQzA1IiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNOSAzLjZjMS4zIDAgMi41LjQgMy40IDEuM0wxNSAyLjNBOSA5IDAgMCAwIDEgNWwzIDIuNGE1LjQgNS40IDAgMCAxIDUtMy43eiIgZmlsbD0iI0VBNDMzNSIgZmlsbC1ydWxlPSJub256ZXJvIi8+PHBhdGggZD0iTTAgMGgxOHYxOEgweiIvPjwvZz48L3N2Zz4" alt="Google">
             Sign Up with Google
